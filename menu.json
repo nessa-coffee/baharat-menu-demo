@@ -1,0 +1,224 @@
+[
+  {
+    "id": "donar",
+    "name": "Донар",
+    "category": "Шаурма и гиро",
+    "price": 180,
+    "description": "",
+    "image": "assets/menu/baharat/donar.jpg"
+  },
+  {
+    "id": "chicken-shawarma",
+    "name": "Шаурма куриная",
+    "category": "Шаурма и гиро",
+    "description": "",
+    "image": "assets/menu/baharat/chicken-shawarma.jpg",
+    "price": 180,
+    "sourcePhoto": 5
+  },
+  {
+    "id": "gyro-plate",
+    "name": "Гиро на тарелке",
+    "category": "Шаурма и гиро",
+    "description": "",
+    "image": "assets/menu/baharat/gyro-plate.jpg",
+    "price": 350,
+    "sourcePhoto": 6
+  },
+  {
+    "id": "shawarma-plate",
+    "name": "Шаурма на тарелке",
+    "category": "Шаурма и гиро",
+    "description": "",
+    "image": "assets/menu/baharat/shawarma-plate.jpg",
+    "price": 330,
+    "sourcePhoto": 7
+  },
+  {
+    "id": "charcoal-chicken",
+    "name": "Курица на углях",
+    "category": "На углях",
+    "description": "",
+    "image": "assets/menu/baharat/charcoal-chicken.jpg",
+    "sourcePhoto": 8,
+    "price": 950
+  },
+  {
+    "id": "steak",
+    "name": "Стейк",
+    "category": "На углях",
+    "description": "",
+    "image": "assets/menu/baharat/steak.jpg",
+    "sourcePhoto": 9,
+    "price": 1000
+  },
+  {
+    "id": "lula-kebab",
+    "name": "Люля-кебаб",
+    "category": "На углях",
+    "description": "",
+    "image": "assets/menu/baharat/lula-kebab.jpg",
+    "price": 300,
+    "sourcePhoto": 10
+  },
+  {
+    "id": "chicken-shashlik",
+    "category": "На углях",
+    "name": "Куриный шашлык",
+    "price": 350,
+    "description": "",
+    "image": "assets/menu/baharat/chicken-shashlik.jpg",
+    "sourceBatch": 2,
+    "sourcePhoto": 1
+  },
+  {
+    "id": "udon",
+    "category": "Горячие блюда",
+    "name": "Удон",
+    "price": 250,
+    "description": "",
+    "image": "assets/menu/baharat/udon.jpg",
+    "sourceBatch": 2,
+    "sourcePhoto": 2
+  },
+  {
+    "id": "pelmeni",
+    "category": "Горячие блюда",
+    "name": "Пельмени",
+    "price": 250,
+    "description": "",
+    "image": "assets/menu/baharat/pelmeni.jpg",
+    "sourceBatch": 2,
+    "sourcePhoto": 5
+  },
+  {
+    "id": "manti",
+    "category": "Горячие блюда",
+    "name": "Манты",
+    "price": 300,
+    "description": "",
+    "image": "assets/menu/baharat/manti.jpg",
+    "sourceBatch": 2,
+    "sourcePhoto": 7,
+    "duplicateSourcePhotos": [
+      9
+    ]
+  },
+  {
+    "id": "plov",
+    "category": "Горячие блюда",
+    "name": "Узбекский плов",
+    "price": 280,
+    "description": "",
+    "image": "assets/menu/baharat/plov.jpg",
+    "sourceBatch": 2,
+    "sourcePhoto": 10
+  },
+  {
+    "id": "galushki-beef",
+    "category": "Горячие блюда",
+    "name": "Галушки с говядиной",
+    "price": 700,
+    "description": "",
+    "image": "assets/menu/baharat/galushki-beef.jpg",
+    "sourceBatch": 3,
+    "sourcePhoto": 1
+  },
+  {
+    "id": "galushki-chicken",
+    "category": "Горячие блюда",
+    "name": "Галушки с курицей",
+    "price": 550,
+    "description": "",
+    "image": "assets/menu/baharat/galushki-chicken.jpg",
+    "sourceBatch": 3,
+    "sourcePhoto": 2
+  },
+  {
+    "id": "lagman",
+    "category": "Горячие блюда",
+    "name": "Лагман",
+    "price": 250,
+    "description": "",
+    "image": "assets/menu/baharat/lagman.jpg",
+    "sourceBatch": 3,
+    "sourcePhoto": 3
+  },
+  {
+    "id": "shurpa",
+    "category": "Супы",
+    "name": "Шурпа",
+    "price": 250,
+    "description": "",
+    "image": "assets/menu/baharat/soup-pending.jpg",
+    "sourceBatch": 3,
+    "sourcePhoto": 4
+  },
+  {
+    "id": "vegetable-salad",
+    "category": "Салаты",
+    "name": "Салат овощной",
+    "price": 180,
+    "description": "",
+    "image": "assets/menu/baharat/vegetable-salad.jpg",
+    "sourceBatch": 2,
+    "sourcePhoto": 3
+  },
+  {
+    "id": "carrot-salad",
+    "category": "Салаты",
+    "name": "Салат морковный",
+    "price": 180,
+    "description": "",
+    "image": "assets/menu/baharat/carrot-salad.jpg",
+    "sourceBatch": 2,
+    "sourcePhoto": 4
+  },
+  {
+    "id": "nuggets",
+    "name": "Наггетсы",
+    "category": "Закуски",
+    "description": "",
+    "image": "assets/menu/baharat/dish-01-pending.jpg",
+    "price": 150,
+    "sourcePhoto": 1
+  },
+  {
+    "id": "vegetable-platter",
+    "category": "Закуски",
+    "name": "Нарезка овощная",
+    "price": 250,
+    "description": "",
+    "image": "assets/menu/baharat/vegetable-platter.jpg",
+    "sourceBatch": 2,
+    "sourcePhoto": 6,
+    "sourcePricePhoto": 8
+  },
+  {
+    "id": "potato-wedges",
+    "name": "Картофель по-деревенски",
+    "category": "Гарниры",
+    "description": "",
+    "image": "assets/menu/baharat/potato-wedges.jpg",
+    "price": 150,
+    "sourcePhoto": 2
+  },
+  {
+    "id": "fries",
+    "name": "Картофель фри",
+    "category": "Гарниры",
+    "description": "",
+    "image": "assets/menu/baharat/fries.jpg",
+    "price": 150,
+    "sourcePhoto": 4
+  },
+  {
+    "id": "tea-pot",
+    "name": "Чай (в чайнике)",
+    "category": "Напитки",
+    "description": "",
+    "image": "assets/menu/baharat/tea-pot.jpg",
+    "price": 250,
+    "sourcePhoto": 3
+  }
+]
