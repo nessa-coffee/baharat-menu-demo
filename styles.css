@@ -76,7 +76,7 @@ h1 { font: 36px var(--serif); margin: 0; letter-spacing: -.04em; }
 .price-pill { font-weight: 700; white-space: nowrap; display: inline-flex; align-items: center; flex-shrink: 0; }
 .demo-badge { position: absolute; left: 10px; top: 10px; border-radius: 20px; padding: 5px 8px; font-size: 9px; letter-spacing: .05em; background: var(--surface); }
 .footer { display: flex; align-items: center; gap: 25px; border-top: 1px solid var(--line); padding-top: 24px; margin-top: 46px; color: var(--muted); }
-.footer>span { font-size: 11px; letter-spacing: .16em; font-weight: 700; }
+.footer>span { font: 16px var(--serif); letter-spacing: .12em; }
 .footer small { font-size: 11px; margin-left: auto; }
 .text-button { padding: 8px 0; font-size: 13px; text-underline-offset: 4px; }
 .text-button:hover { text-decoration: underline; }
@@ -95,7 +95,8 @@ h1 { font: 36px var(--serif); margin: 0; letter-spacing: -.04em; }
 .side-right #panel-content { --panel-entry: translate3d(100%,0,0); right: 0; left: auto; width: min(420px,68vw); border-radius: 24px 0 0 0; }
 .side-left #panel-content { --panel-entry: translate3d(-100%,0,0); left: 0; right: auto; width: min(390px,86vw); border-radius: 0 24px 0 0; }
 .panel.sheet #panel-content { --panel-entry: translate3d(0,100%,0); top: auto; bottom: 0; left: 0; right: 0; margin: 0 auto; width: 600px; height: 78%; max-height: 820px; border-radius: 26px 26px 0 0; }
-.panel.cart-panel #panel-content { height: 52%; min-height: min(360px,82%); max-height: 580px; }
+.panel.cart-panel #panel-content { height: 52%; min-height: 0; max-height: 580px; }
+.panel.cart-panel.has-order-items #panel-content { height: 84%; max-height: 780px; }
 .panel.checkout-panel #panel-content { height: 70%; max-height: 620px; }
 .sheet #panel-content::before { content: ''; position: absolute; z-index: 1; left: 50%; top: 12px; transform: translateX(-50%); width: 44px; height: 5px; border-radius: 10px; background: var(--surface); pointer-events: none; }
 .panel.is-ready #panel-content { visibility: visible; transition: transform 240ms ease; }
@@ -176,13 +177,15 @@ input[type=range] { width: 100%; accent-color: var(--accent-ink); cursor: pointe
 .cart-item-bottom b { font: 700 19px var(--serif); }
 .cart-item .quantity button { width: 34px; height: 34px; }
 .cart-item .quantity output { font-size: 15px; min-width: 25px; }
-.cart-panel .cart-lines { padding: 8px 22px 4px; }
+.cart-panel .cart-body { padding: 8px 22px 20px; scrollbar-gutter: stable; }
+.cart-panel .cart-lines { padding: 0; }
 .cart-lines .empty-cart { padding: 8px 0; margin: 0; text-align: center; font: 18px var(--serif); color: var(--muted); }
 .cart-comment { margin: 0 0 12px; gap: 8px; text-align: center; font: 700 17px var(--serif); }
 .cart-comment textarea { min-height: 64px; height: 64px; resize: none; text-align: left; font: 16px/1.4 var(--sans); }
-.cart-footer { padding: 10px 22px max(20px,env(safe-area-inset-bottom)); flex-shrink: 0; background: var(--background); }
+.cart-summary { padding-top: 22px; }
+.cart-footer { padding: 12px 22px max(16px,env(safe-area-inset-bottom)); flex-shrink: 0; background: var(--background); border-top: 1px solid var(--line); }
 .cart-total { display: flex; align-items: center; justify-content: space-between; margin-bottom: 17px; font: 26px var(--serif); }
-.cart-footer .cart-total { justify-content: center; gap: 9px; margin-bottom: 15px; font-size: 22px; }
+.cart-summary .cart-total { justify-content: center; gap: 9px; margin-bottom: 18px; font-size: 22px; }
 .price-pill, .order-total, .menu-dish-link .menu-price, .drawer-order-line small,
 .drawer-total, .field-title output, .range-ends, .variant-button span,
 .detail-price, .cart-item-info small, .cart-item-bottom b, .cart-total b,
